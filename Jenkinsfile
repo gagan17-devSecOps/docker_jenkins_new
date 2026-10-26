@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/newdelthis/docker_jenkins_first.git'
+                git branch: 'main', url: 'https://github.com/gagan17-devSecOps/docker_jenkins_new.git'
             }
         }
 
